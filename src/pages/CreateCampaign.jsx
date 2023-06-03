@@ -51,14 +51,14 @@ const CreateCampaign = () => {
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
             labelName="Your Name *"
-            placeholder="John Doe"
+            placeholder="Abhishek Singh"
             inputType="text"
             value={form.name}
             handleChange={(e) => handleFormFieldChange('name', e)}
           />
           <FormField 
             labelName="Campaign Title *"
-            placeholder="Write a title"
+            placeholder="Write a title of the campaign"
             inputType="text"
             value={form.title}
             handleChange={(e) => handleFormFieldChange('title', e)}
@@ -67,7 +67,7 @@ const CreateCampaign = () => {
 
         <FormField 
             labelName="Story *"
-            placeholder="Write your story"
+            placeholder="Write the story"
             isTextArea
             value={form.description}
             handleChange={(e) => handleFormFieldChange('description', e)}
