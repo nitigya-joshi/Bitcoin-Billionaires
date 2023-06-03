@@ -1,37 +1,112 @@
-## Getting Started
+# CrowdVault
 
-Create a project using this example:
+Welcome to CrowdVault, a decentralized crowdfunding application built on the Filecoin Testnet!
 
-```bash
-npx thirdweb create --template vite-javascript-starter
+## Project Overview
+
+CrowdVault is a secure and transparent crowdfunding platform developed using React and deployed on the Filecoin Testnet. It harnesses the power of Web3 technology and the decentralized storage capabilities of the Filecoin network to revolutionize the crowdfunding experience.
+
+## Purpose
+
+The purpose of CrowdVault is to provide a decentralized alternative to traditional crowdfunding platforms. It allows project creators to initiate crowdfunding campaigns and enables backers to support projects they believe in, all while leveraging the benefits of Web3 and the Filecoin Testnet.
+
+## Key Features
+
+- **Decentralized Crowdfunding:** CrowdVault eliminates the need for intermediaries, enabling direct interaction between project creators and backers through smart contracts on the Filecoin Testnet.
+
+- **Security and Transparency:** With the Filecoin Testnet's decentralized storage, user data and transactions are secured and transparent, fostering trust among project creators and backers.
+
+- **Enhanced Fundraising Experience:** CrowdVault offers an intuitive and user-friendly interface for project creators to create and manage their crowdfunding campaigns, while backers can easily discover and support projects of their interest.
+
+## Usage
+
+To use CrowdVault, follow these steps:
+
+1. **Create an Account:** Connect on CrowdVault directly through your digital wallet without the hassle of Sign-Ups.
+
+2. **Browse Campaigns:** Explore the available crowdfunding campaigns on the platform. Each project will have its description, funding goal, and associated rewards.
+
+3. **Support a Campaign:** Choose a project you wish to back and contribute funds through the supported payment options.
+
+4. **Monitor Campaign Progress:** Keep track of the campaign's progress, updates, and funding milestones.
+
+
+## Installation and Setup
+
+### Prerequisites
+
+Make sure you have the following software installed:
+
+- Node.js (version X.X.X)
+- [Backend Framework] (version X.X.X)
+
+### Frontend (React) Setup
+
+1. Clone the repository:
+```
+git clone https://github.com/your-username/CrowdVault.git
+```
+2. Install the project dependencies:
+```
+cd CrowdVault/frontend
+npm install
 ```
 
-You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
+3. Configure Environment Variables:
+   - Rename the `.env.example` file in the `frontend` directory to `.env`.
+   - Update the values in the `.env` file with your specific configuration, such as the Filecoin Testnet API endpoint.
 
-On `src/index.jsx`, you'll find our `ThirdwebProvider` wrapping your app,
-this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
-### Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
+4. Build the production-ready frontend:
+```
+npm run build
 ```
 
-## Learn More
+### Backend Setup
 
-To learn more about thirdweb, Vite and React, take a look at the following resources:
+1. Install the project dependencies:
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
-- [React documentation](https://reactjs.org/) - learn React.
+```
+cd ../backend
+npm install
+```
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+2. Configure Environment Variables:
+   - Rename the `.env.example` file in the `backend` directory to `.env`.
+   - Update the values in the `.env` file with your specific configuration, such as database connection details, API keys, and Filecoin Testnet credentials.
 
-## Join our Discord!
+3. Run the backend server:
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+```
+npm start
+```
+
+The backend server will start running on the specified port.
+
+### Deployment
+
+To deploy CrowdVault on the Filecoin Testnet, follow these steps:
+
+1. Set up your Filecoin Testnet wallet and obtain the necessary credentials.
+
+2. Update the deployment configuration in the project code to use the Filecoin Testnet settings.
+
+3. Build the production-ready frontend:
+
+```
+cd ../frontend
+npm run build
+```
+
+4. Deploy the generated build folder and the backend to the desired hosting platform or IPFS.
+
+## Contributing
+
+We welcome contributions from the open-source community to make CrowdVault even better. If you want to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+## Acknowledgments
+
+We would like to express our gratitude to the Filecoin community for their support and the open-source contributors whose libraries and frameworks made this project possible.
+
+## Team Members
+Nitigya Joshi <br/>
+Abhishek Singh
