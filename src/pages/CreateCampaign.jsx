@@ -51,7 +51,7 @@ const CreateCampaign = () => {
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
             labelName="Your Name *"
-            placeholder="Abhishek Singh"
+            placeholder="Name of the campaigner"
             inputType="text"
             value={form.name}
             handleChange={(e) => handleFormFieldChange('name', e)}
@@ -81,7 +81,7 @@ const CreateCampaign = () => {
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
             labelName="Goal *"
-            placeholder="ETH 0.50"
+            placeholder="ETH 10"
             inputType="text"
             value={form.target}
             handleChange={(e) => handleFormFieldChange('target', e)}
